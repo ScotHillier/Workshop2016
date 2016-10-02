@@ -1,0 +1,46 @@
+<!doctype html>
+<html dir="ltr">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>SharePoint Web Part Workbench</title>
+
+  <link rel="shortcut icon" href="http://SurfaceBook:4321/node_modules/@microsoft/sp-webpart-workbench/dist/assets/server-icon.png" />
+  <link rel="stylesheet" href="https://appsforoffice.microsoft.com/fabric/2.0.1/fabric.components.min.css">
+
+  <script type="text/javascript" src="http://SurfaceBook:4321/temp/manifests.js"></script>
+  <script type="text/javascript" src="http://SurfaceBook:4321/node_modules/@microsoft/sp-module-loader/dist/sp-module-loader.js"></script>
+  <script type="text/javascript">
+    window.DEBUG = true;
+    window.ENVIRONMENTTYPE = 'Local';
+    window.SP = {};
+    // This is a hack to work around a react-redux issue.
+    window.process = { env: { NODE_ENV: 'production' } };
+
+    window.preloadedData = {
+      'clientSideApplicationId': '8be81a5c-af38-4bb2-af97-afa3b64dfbed',
+      manifests: debugManifests.getManifests(),
+      spPageContextInfo: {
+        'currentCultureName': 'en-us',
+        'siteId': '00000000-0000-4000-0000-111111111111',
+        'userDisplayName': 'User 1',
+        'userLoginName': 'user1@contoso.com',
+        'webAbsoluteUrl': 'https://wwww.contoso.com/sites/workbench',
+        'webId': '00000000-0000-4000-0000-222222222222',
+        'webPermMasks': { High: 0x7FFFFFFF, Low: 0xFFFFFFFF },
+        'webServerRelativeUrl': '/sites/workbench',
+        'webTitle': 'Local Workbench'
+      }
+    };
+
+  </script>
+</head>
+<body>
+
+  <script type="text/javascript">
+    window.spModuleLoader.start(window.preloadedData);
+  </script>
+</body>
+</html>

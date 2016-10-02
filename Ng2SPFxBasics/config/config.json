@@ -1,0 +1,23 @@
+{
+  "entries": [
+    {
+      "entry": "./lib/webparts/helloNg2/HelloNg2WebPart.js",
+      "manifest": "./src/webparts/helloNg2/HelloNg2WebPart.manifest.json",
+      "outputPath": "./dist/hello-ng-2.bundle.js"
+    }
+  ],
+  "externals": {
+    "@microsoft/sp-client-base": "node_modules/@microsoft/sp-client-base/dist/sp-client-base.js",
+    "@microsoft/sp-client-preview": "node_modules/@microsoft/sp-client-preview/dist/sp-client-preview.js",
+    "rxjs/Subject": "node_modules/rxjs/bundles/rx.umd.js",
+    "rxjs/Observable": "node_modules/rxjs/bundles/rx.umd.js",
+    "@angular/compiler": "node_modules/@angular/compiler/bundles/compiler.umd.js",
+    "@angular/common": "node_modules/@angular/common/bundles/common.umd.js",
+    "@angular/core": "node_modules/@angular/core/bundles/core.umd.js",
+    "@angular/platform-browser": "node_modules/@angular/platform-browser/bundles/platform-browser.umd.js",
+    "@angular/platform-browser-dynamic": "node_modules/@angular/platform-browser-dynamic/bundles/platform-browser-dynamic.umd.js"
+  },
+  "localizedResources": {
+    "helloNg2Strings": "webparts/helloNg2/loc/{locale}.js"
+  }
+}

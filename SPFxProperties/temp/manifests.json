@@ -1,0 +1,254 @@
+[
+  {
+    "id": "73e1dc6c-8441-42cc-ad47-4bd3659f8a3a",
+    "componentType": "Library",
+    "version": "0.0.1",
+    "manifestVersion": 2,
+    "loaderConfig": {
+      "entryModuleId": "sp-lodash-subset",
+      "internalModuleBaseUrls": [
+        "https://surfacebook:4321/node_modules/@microsoft/sp-lodash-subset/"
+      ],
+      "scriptResources": {
+        "sp-lodash-subset": {
+          "type": "internal",
+          "path": "dist/sp-lodash-subset.js"
+        }
+      }
+    }
+  },
+  {
+    "id": "1c6c9123-7aac-41f3-a376-3caea41ed83f",
+    "componentType": "Library",
+    "version": "0.0.1",
+    "manifestVersion": 2,
+    "loaderConfig": {
+      "entryModuleId": "sp-module-loader",
+      "internalModuleBaseUrls": [
+        "https://surfacebook:4321/node_modules/@microsoft/sp-module-loader/"
+      ],
+      "scriptResources": {
+        "sp-module-loader": {
+          "type": "internal",
+          "path": "dist/sp-module-loader.js"
+        }
+      }
+    }
+  },
+  {
+    "id": "af59c2b3-2da7-41fd-8b72-3939817960af",
+    "componentType": "Library",
+    "version": "0.0.1",
+    "manifestVersion": 2,
+    "loaderConfig": {
+      "entryModuleId": "sp-client-base",
+      "internalModuleBaseUrls": [
+        "https://surfacebook:4321/node_modules/@microsoft/sp-client-base/"
+      ],
+      "scriptResources": {
+        "sp-client-base": {
+          "type": "internal",
+          "path": "dist/sp-client-base.js"
+        },
+        "@microsoft/sp-lodash-subset": {
+          "type": "framework",
+          "version": "latest",
+          "failoverPath": "node_modules/@microsoft/sp-lodash-subset/dist/sp-lodash-subset.js"
+        }
+      }
+    }
+  },
+  {
+    "id": "02a01e42-69ab-403d-8a16-acd128661f8e",
+    "componentType": "Library",
+    "version": "0.0.1",
+    "manifestVersion": 2,
+    "loaderConfig": {
+      "entryModuleId": "office-ui-fabric-react.bundle",
+      "internalModuleBaseUrls": [
+        "https://surfacebook:4321/node_modules/@microsoft/office-ui-fabric-react-bundle/"
+      ],
+      "scriptResources": {
+        "office-ui-fabric-react.bundle": {
+          "type": "internal",
+          "path": "dist/office-ui-fabric-react.bundle.js"
+        },
+        "react": {
+          "type": "framework",
+          "version": "latest",
+          "failoverPath": "node_modules/react/dist/react.min.js"
+        },
+        "react-dom": {
+          "type": "framework",
+          "version": "latest",
+          "failoverPath": "node_modules/react-dom/dist/react-dom.min.js"
+        }
+      }
+    }
+  },
+  {
+    "id": "4d5eb168-6729-49a8-aec7-0e397f486b6e",
+    "componentType": "Library",
+    "version": "1.0.0",
+    "manifestVersion": 2,
+    "loaderConfig": {
+      "entryModuleId": "sp-client-preview",
+      "internalModuleBaseUrls": [
+        "https://surfacebook:4321/node_modules/@microsoft/sp-client-preview/"
+      ],
+      "scriptResources": {
+        "sp-client-preview": {
+          "type": "internal",
+          "path": "dist/sp-client-preview.js"
+        },
+        "4d5eb168-6729-49a8-aec7-0e397f486b6e_strings": {
+          "defaultPath": "lib/resx-strings/en-us.js",
+          "type": "localized"
+        },
+        "@microsoft/sp-lodash-subset": {
+          "type": "framework",
+          "version": "latest",
+          "failoverPath": "node_modules/@microsoft/sp-lodash-subset/dist/sp-lodash-subset.js"
+        },
+        "@microsoft/sp-client-base": {
+          "type": "framework",
+          "version": "latest",
+          "failoverPath": "node_modules/@microsoft/sp-client-base/dist/sp-client-base.js"
+        },
+        "react": {
+          "type": "framework",
+          "version": "latest",
+          "failoverPath": "node_modules/react/dist/react.js"
+        },
+        "react-dom": {
+          "type": "framework",
+          "version": "latest",
+          "failoverPath": "node_modules/react-dom/dist/react-dom.js"
+        },
+        "office-ui-fabric-react": {
+          "type": "framework",
+          "version": "latest",
+          "failoverPath": "node_modules/office-ui-fabric-react/dist/office-ui-fabric-react.js"
+        }
+      }
+    }
+  },
+  {
+    "id": "8be81a5c-af38-4bb2-af97-afa3b64dfbed",
+    "componentType": "Application",
+    "version": "1.0.0",
+    "manifestVersion": 2,
+    "title": {
+      "default": "WebpartWorkbench"
+    },
+    "description": {
+      "default": "WebpartWorkbench"
+    },
+    "preloadComponents": [
+      "6aeaab4a-4d96-47fe-a0c2-9e063a2efda4",
+      "4d5eb168-6729-49a8-aec7-0e397f486b6e",
+      "a8c07ea7-3ee8-4376-8afa-e0c5098615eb",
+      "02a01e42-69ab-403d-8a16-acd128661f8e"
+    ],
+    "preloadOptions": {
+      "shouldPreloadWeb": false,
+      "shouldPreloadUser": true,
+      "shouldPreloadList": false,
+      "shouldPreloadItem": true,
+      "shouldPreloadQuickLaunch": true
+    },
+    "loaderConfig": {
+      "entryModuleId": "sp-webpart-workbench",
+      "internalModuleBaseUrls": [
+        "https://surfacebook:4321/node_modules/@microsoft/sp-webpart-workbench/"
+      ],
+      "scriptResources": {
+        "sp-webpart-workbench": {
+          "type": "internal",
+          "path": "dist/sp-webpart-workbench.js"
+        },
+        "8be81a5c-af38-4bb2-af97-afa3b64dfbed_strings": {
+          "defaultPath": "lib/resx-strings/en-us.js",
+          "type": "localized"
+        },
+        "react": {
+          "type": "framework",
+          "version": "latest",
+          "failoverPath": "node_modules/react/dist/react.min.js"
+        },
+        "react-dom": {
+          "type": "framework",
+          "version": "latest",
+          "failoverPath": "node_modules/react-dom/dist/react-dom.min.js"
+        },
+        "@microsoft/sp-client-preview": {
+          "type": "framework",
+          "version": "latest",
+          "failoverPath": "node_modules/@microsoft/sp-client-preview/dist/sp-client-preview.js"
+        },
+        "@microsoft/sp-client-base": {
+          "type": "framework",
+          "version": "latest",
+          "failoverPath": "node_modules/@microsoft/sp-client-base/dist/sp-client-base.js"
+        },
+        "office-ui-fabric-react": {
+          "type": "framework",
+          "version": "latest",
+          "failoverPath": "node_modules/office-ui-fabric-react/dist/office-ui-fabric-react.min.js"
+        }
+      }
+    }
+  },
+  {
+    "id": "20966d02-e567-4cf3-896c-cb43937ff6d6",
+    "componentType": "WebPart",
+    "version": "0.0.1",
+    "manifestVersion": 2,
+    "preconfiguredEntries": [
+      {
+        "groupId": "20966d02-e567-4cf3-896c-cb43937ff6d6",
+        "group": {
+          "default": "Under Development"
+        },
+        "title": {
+          "default": "Hello Properties"
+        },
+        "description": {
+          "default": "A client web part to show various properties in action"
+        },
+        "officeFabricIconFontName": "Page",
+        "properties": {
+          "myTextProperty": "Some default text",
+          "myCheckboxProperty": false,
+          "myLabelProperty": "Simple read-only label",
+          "myLinkProperty": "<a href='http://www.microsoft.com'>Microsoft</a>",
+          "mySliderProperty": 5,
+          "myToggleProperty": true,
+          "myDropdownProperty": "2"
+        }
+      }
+    ],
+    "loaderConfig": {
+      "entryModuleId": "hello-properties.bundle",
+      "internalModuleBaseUrls": [
+        "https://SurfaceBook:4321/"
+      ],
+      "scriptResources": {
+        "hello-properties.bundle": {
+          "type": "internal",
+          "path": "dist/hello-properties.bundle.js"
+        },
+        "helloPropertiesStrings": {
+          "defaultPath": "lib/webparts/helloProperties/loc/en-us.js",
+          "type": "localized",
+          "paths": {}
+        },
+        "@microsoft/sp-client-preview": {
+          "type": "framework",
+          "version": "latest",
+          "failoverPath": "node_modules/@microsoft/sp-client-preview/dist/sp-client-preview.js"
+        }
+      }
+    }
+  }
+]

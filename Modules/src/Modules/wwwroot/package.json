@@ -1,0 +1,14 @@
+{
+  "name": "Modules",
+  "version": "1.0.0.0",
+  "dependencies": {
+    "es6-promise": "^3.0.2",
+    "es6-shim": "^0.33.3",
+    "es6-module-loader": "0.17.9",
+    "requirejs": "2.1.22",
+    "systemjs": "0.19.14",
+    "bootstrap": "3.3.6",
+    "jquery": "2.1.4",
+    "toastr": "2.1.2"
+  }
+}

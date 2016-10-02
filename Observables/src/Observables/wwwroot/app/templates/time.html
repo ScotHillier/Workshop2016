@@ -1,0 +1,15 @@
+﻿<button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#collapse1">
+    Binding directly to an Observable
+</button>
+<div id="collapse1" class="collapse">
+    <button type="button" class="btn btn-info" style="margin:10px;" (click)="subscribeToTime1()">GO!</button>
+    <h1>{{currentTime1 | async }}</h1>
+</div>
+<button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#collapse2">
+    Canceling a subscription
+</button>
+<div id="collapse2" class="collapse">
+    <button type="button" class="btn btn-info" style="margin:10px;" (click)="subscribeToTime2()">GO!</button>
+    <button type="button" class="btn btn-danger" style="margin:10px;" (click)="cancelSubscription()">STOP!</button>
+   <h1>{{currentTime2}}</h1>
+</div>

@@ -1,0 +1,20 @@
+﻿<div>
+    <p>Loading from {{webTitle}}</p>
+    <div class="ms-Grid">
+        <div class="ms-Grid-row" style="padding-bottom:5px;">
+            <div class="ms-Grid-col ms-u-md6">
+                <button class="ms-Button ms-Button--primary" (click)="getListItems()">
+                    <span class="ms-Button-label">Get Announcements</span>
+                </button>
+            </div>
+        </div>
+        <div class="ms-Grid-row" *ngFor="let item of listItems">
+            <div class="ms-Grid-col ms-u-md4">
+                {{item.Id}}
+            </div>
+            <div class="ms-Grid-col ms-u-md8">
+                {{item.Title}}
+            </div>
+        </div>
+    </div>
+</div>

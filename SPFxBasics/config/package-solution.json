@@ -1,0 +1,10 @@
+{
+  "solution": {
+    "name": "sp-fx-basics-client-side-solution",
+    "id": "05E55482-2E4D-4C39-A44C-0A2B77FAAA68",
+    "version": "1.1.0.0"
+  },
+  "paths": {
+    "zippedPackage": "sp-fx-basics.spapp"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "../../../node_modules/@microsoft/sp-module-interfaces/lib/manifestSchemas/jsonSchemas/clientSideComponentManifestSchema.json",
+
+  "id": "31c8aada-d828-412c-bac0-e81a6827249b",
+  "componentType": "WebPart",
+  "version": "0.0.1",
+  "manifestVersion": 2,
+
+  "preconfiguredEntries": [{
+    "groupId": "31c8aada-d828-412c-bac0-e81a6827249b",
+    "group": { "default": "Under Development" },
+    "title": { "default": "HelloNg2" },
+    "description": { "default": "A client web part using Angular 2" },
+    "officeFabricIconFontName": "Page",
+    "properties": {
+      "description": "HelloNg2"
+    }
+  }]
+}

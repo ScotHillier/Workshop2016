@@ -1,0 +1,3 @@
+D:\Demos\_Workshop 2016\NgSPAddInBasics\NgSPAddInBasics\bin\Debug\NgSPAddInBasics.pdb
+D:\Demos\_Workshop 2016\NgSPAddInBasics\NgSPAddInBasics\obj\Debug\NgSPAddInBasics.dll
+D:\Demos\_Workshop 2016\NgSPAddInBasics\NgSPAddInBasics\obj\Debug\NgSPAddInBasics.pdb

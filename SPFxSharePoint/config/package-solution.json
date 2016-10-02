@@ -1,0 +1,10 @@
+{
+  "solution": {
+    "name": "sp-fx-share-point-client-side-solution",
+    "id": "6e8ecd85-8ab7-4ad3-87c3-0acba739b017",
+    "version": "1.0.0.0"
+  },
+  "paths": {
+    "zippedPackage": "sp-fx-share-point.spapp"
+  }
+}

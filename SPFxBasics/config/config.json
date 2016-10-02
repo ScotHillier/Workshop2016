@@ -1,0 +1,21 @@
+{
+  "entries": [
+    {
+      "entry": "./lib/webparts/helloWorld/HelloWorldWebPart.js",
+      "manifest": "./src/webparts/helloWorld/HelloWorldWebPart.manifest.json",
+      "outputPath": "./dist/hello-world.bundle.js"
+    }
+  ],
+  "externals": {
+    "@microsoft/sp-client-base": "https://npmcdn.com/@microsoft/sp-client-base/dist/sp-client-base.js",
+    "@microsoft/sp-client-preview": "https://npmcdn.com/@microsoft/sp-client-preview/dist/sp-client-preview.js",
+    "@microsoft/sp-lodash-subset": "https://npmcdn.com/@microsoft/sp-lodash-subset/dist/sp-lodash-subset.js",
+    "office-ui-fabric-react": "https://npmcdn.com/office-ui-fabric-react/dist/office-ui-fabric-react.js",
+    "react": "https://npmcdn.com/react/dist/react.min.js",
+    "react-dom": "https://npmcdn.com/react-dom/dist/react-dom.min.js",
+    "react-dom/server": "https://npmcdn.com/react-dom/dist/react-dom-server.min.js"
+  },
+  "localizedResources": {
+    "helloWorldStrings": "webparts/helloWorld/loc/{locale}.js"
+  }
+}

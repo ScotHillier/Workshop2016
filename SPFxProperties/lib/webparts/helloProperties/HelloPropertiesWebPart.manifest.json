@@ -1,0 +1,25 @@
+{
+  "$schema": "../../../node_modules/@microsoft/sp-module-interfaces/lib/manifestSchemas/jsonSchemas/clientSideComponentManifestSchema.json",
+
+  "id": "20966d02-e567-4cf3-896c-cb43937ff6d6",
+  "componentType": "WebPart",
+  "version": "0.0.1",
+  "manifestVersion": 2,
+
+  "preconfiguredEntries": [{
+    "groupId": "20966d02-e567-4cf3-896c-cb43937ff6d6",
+    "group": { "default": "Under Development" },
+    "title": { "default": "Hello Properties" },
+    "description": { "default": "A client web part to show various properties in action" },
+    "officeFabricIconFontName": "Page",
+    "properties": {
+      "myTextProperty": "Some default text",
+      "myCheckboxProperty": false,
+      "myLabelProperty": "Simple read-only label",
+      "myLinkProperty": "<a href='http://www.microsoft.com'>Microsoft</a>",
+      "mySliderProperty": 5,
+      "myToggleProperty": true,
+      "myDropdownProperty": "2"
+    }
+  }]
+}

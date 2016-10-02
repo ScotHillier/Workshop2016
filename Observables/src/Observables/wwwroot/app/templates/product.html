@@ -1,0 +1,71 @@
+﻿<button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#collapse1">
+    Observables with simple HTTP GET operation
+</button>
+<div id="collapse1" class="collapse">
+    <button type="button" class="btn btn-info" style="margin:10px;" (click)="subscribeToProducts()">GO!</button>
+    <table class="table table-striped">
+        <caption>Products</caption>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Price</th>
+            </tr>
+        </thead>
+        <tr *ngFor="let product of products1">
+            <td>{{ product.ProductName }}</td>
+            <td>{{ product.UnitPrice | currency:'USD':true:'1.2-2' }}</td>
+        </tr>
+    </table>
+</div>
+<button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#collapse2">
+    Observables in parallel using forkJoin
+</button>
+<div id="collapse2" class="collapse">
+    <button type="button" class="btn btn-info" style="margin:10px;" (click)="subscribeToParallel()">GO!</button>
+    <table class="table table-striped">
+        <caption>Products</caption>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Price</th>
+            </tr>
+        </thead>
+        <tr *ngFor="let product of products2">
+            <td>{{ product.ProductName }}</td>
+            <td>{{ product.UnitPrice | currency:'USD':true:'1.2-2' }}</td>
+        </tr>
+    </table>
+    <table class="table table-striped">
+        <caption>Categories</caption>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tr *ngFor="let category of categories">
+            <td>{{ category.CategoryName }}</td>
+            <td>{{ category.Description }}</td>
+        </tr>
+    </table>
+</div>
+<button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#collapse3">
+    Observables in sequence using flatMap
+</button>
+<div id="collapse3" class="collapse">
+    <input type="text" [(ngModel)]="categoryName" placeholder="Enter a category name" style="width:200px" />
+    <button type="button" class="btn btn-info" style="margin:10px;" (click)="subscribeToSequential()">GO!</button>
+    <table class="table table-striped">
+        <caption>Products</caption>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Price</th>
+            </tr>
+        </thead>
+        <tr *ngFor="let product of products3">
+            <td>{{ product.ProductName }}</td>
+            <td>{{ product.UnitPrice | currency:'USD':true:'1.2-2' }}</td>
+        </tr>
+    </table>
+</div>

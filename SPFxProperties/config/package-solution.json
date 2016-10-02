@@ -1,0 +1,10 @@
+{
+  "solution": {
+    "name": "sp-fx-properties-client-side-solution",
+    "id": "1a2d9e06-7bcf-4804-89bd-a6f78d02b7f0",
+    "version": "1.0.0.0"
+  },
+  "paths": {
+    "zippedPackage": "sp-fx-properties.spapp"
+  }
+}

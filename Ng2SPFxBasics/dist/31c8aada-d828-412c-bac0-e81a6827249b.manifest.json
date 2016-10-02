@@ -1,0 +1,74 @@
+{
+  "id": "31c8aada-d828-412c-bac0-e81a6827249b",
+  "componentType": "WebPart",
+  "version": "0.0.1",
+  "manifestVersion": 2,
+  "preconfiguredEntries": [
+    {
+      "groupId": "31c8aada-d828-412c-bac0-e81a6827249b",
+      "group": {
+        "default": "Under Development"
+      },
+      "title": {
+        "default": "HelloNg2"
+      },
+      "description": {
+        "default": "A client web part using Angular 2"
+      },
+      "officeFabricIconFontName": "Page",
+      "properties": {
+        "description": "HelloNg2"
+      }
+    }
+  ],
+  "loaderConfig": {
+    "entryModuleId": "hello-ng-2.bundle",
+    "internalModuleBaseUrls": [
+      "https://SurfaceBook:4321/"
+    ],
+    "scriptResources": {
+      "hello-ng-2.bundle": {
+        "type": "internal",
+        "path": "dist/hello-ng-2.bundle.js"
+      },
+      "rxjs/Subject": {
+        "type": "internal",
+        "path": "node_modules/rxjs/bundles/rx.umd.js"
+      },
+      "rxjs/Observable": {
+        "type": "internal",
+        "path": "node_modules/rxjs/bundles/rx.umd.js"
+      },
+      "@angular/common": {
+        "type": "internal",
+        "path": "node_modules/@angular/common/bundles/common.umd.js"
+      },
+      "@angular/compiler": {
+        "type": "internal",
+        "path": "node_modules/@angular/compiler/bundles/compiler.umd.js"
+      },
+      "@angular/platform-browser-dynamic": {
+        "type": "internal",
+        "path": "node_modules/@angular/platform-browser-dynamic/bundles/platform-browser-dynamic.umd.js"
+      },
+      "@angular/core": {
+        "type": "internal",
+        "path": "node_modules/@angular/core/bundles/core.umd.js"
+      },
+      "@angular/platform-browser": {
+        "type": "internal",
+        "path": "node_modules/@angular/platform-browser/bundles/platform-browser.umd.js"
+      },
+      "helloNg2Strings": {
+        "defaultPath": "lib/webparts/helloNg2/loc/en-us.js",
+        "type": "localized",
+        "paths": {}
+      },
+      "@microsoft/sp-client-preview": {
+        "type": "framework",
+        "version": "latest",
+        "failoverPath": "node_modules/@microsoft/sp-client-preview/dist/sp-client-preview.js"
+      }
+    }
+  }
+}

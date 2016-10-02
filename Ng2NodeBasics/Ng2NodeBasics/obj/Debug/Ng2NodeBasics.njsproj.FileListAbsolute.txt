@@ -1,0 +1,2 @@
+D:\Demos\_Workshop 2016\Ng2NodeBasics\Ng2NodeBasics\obj\Debug\Ng2NodeBasics.njsprojResolveAssemblyReference.cache
+D:\Demos\_Workshop 2016\Ng2NodeBasics\Ng2NodeBasics\bin\Microsoft.NodejsTools.WebRole.dll

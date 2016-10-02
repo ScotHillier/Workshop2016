@@ -1,0 +1,10 @@
+{
+  "solution": {
+    "name": "ng-2-sp-fx-basics-client-side-solution",
+    "id": "2cb61167-b8a2-44ff-8c51-d992184517d7",
+    "version": "1.0.0.0"
+  },
+  "paths": {
+    "zippedPackage": "ng-2-sp-fx-basics.spapp"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "libraryName": "ng-2-sp-fx-basics",
+    "libraryId": "2cb61167-b8a2-44ff-8c51-d992184517d7",
+    "framework": "none"
+  }
+}

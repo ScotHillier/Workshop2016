@@ -1,0 +1,52 @@
+{
+  "id": "20966d02-e567-4cf3-896c-cb43937ff6d6",
+  "componentType": "WebPart",
+  "version": "0.0.1",
+  "manifestVersion": 2,
+  "preconfiguredEntries": [
+    {
+      "groupId": "20966d02-e567-4cf3-896c-cb43937ff6d6",
+      "group": {
+        "default": "Under Development"
+      },
+      "title": {
+        "default": "Hello Properties"
+      },
+      "description": {
+        "default": "A client web part to show various properties in action"
+      },
+      "officeFabricIconFontName": "Page",
+      "properties": {
+        "myTextProperty": "Some default text",
+        "myCheckboxProperty": false,
+        "myLabelProperty": "Simple read-only label",
+        "myLinkProperty": "<a href='http://www.microsoft.com'>Microsoft</a>",
+        "mySliderProperty": 5,
+        "myToggleProperty": true,
+        "myDropdownProperty": "2"
+      }
+    }
+  ],
+  "loaderConfig": {
+    "entryModuleId": "hello-properties.bundle",
+    "internalModuleBaseUrls": [
+      "https://SurfaceBook:4321/"
+    ],
+    "scriptResources": {
+      "hello-properties.bundle": {
+        "type": "internal",
+        "path": "dist/hello-properties.bundle.js"
+      },
+      "helloPropertiesStrings": {
+        "defaultPath": "lib/webparts/helloProperties/loc/en-us.js",
+        "type": "localized",
+        "paths": {}
+      },
+      "@microsoft/sp-client-preview": {
+        "type": "framework",
+        "version": "latest",
+        "failoverPath": "node_modules/@microsoft/sp-client-preview/dist/sp-client-preview.js"
+      }
+    }
+  }
+}

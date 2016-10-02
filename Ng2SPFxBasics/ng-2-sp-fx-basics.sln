@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "ng-2-sp-fx-basics", "ng-2-sp-fx-basics.njsproj", "{2CB61167-B8A2-44FF-8C51-D992184517D7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2CB61167-B8A2-44FF-8C51-D992184517D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CB61167-B8A2-44FF-8C51-D992184517D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CB61167-B8A2-44FF-8C51-D992184517D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CB61167-B8A2-44FF-8C51-D992184517D7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

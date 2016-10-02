@@ -1,0 +1,24 @@
+{
+  "entries": [
+    {
+      "entry": "./lib/webparts/spFxSharePoint/SpFxSharePointWebPart.js",
+      "manifest": "./src/webparts/spFxSharePoint/SpFxSharePointWebPart.manifest.json",
+      "outputPath": "./dist/sp-fx-share-point.bundle.js"
+    }
+  ],
+  "externals": {
+    "@microsoft/sp-client-base": "node_modules/@microsoft/sp-client-base/dist/sp-client-base.js",
+    "@microsoft/sp-client-preview": "node_modules/@microsoft/sp-client-preview/dist/sp-client-preview.js",
+    "rxjs/Subject": "node_modules/rxjs/bundles/rx.umd.js",
+    "rxjs/Observable": "node_modules/rxjs/bundles/rx.umd.js",
+    "@angular/http": "node_modules/@angular/http/bundles/http.umd.js",
+    "@angular/compiler": "node_modules/@angular/compiler/bundles/compiler.umd.js",
+    "@angular/common": "node_modules/@angular/common/bundles/common.umd.js",
+    "@angular/core": "node_modules/@angular/core/bundles/core.umd.js",
+    "@angular/platform-browser": "node_modules/@angular/platform-browser/bundles/platform-browser.umd.js",
+    "@angular/platform-browser-dynamic": "node_modules/@angular/platform-browser-dynamic/bundles/platform-browser-dynamic.umd.js"
+  },
+  "localizedResources": {
+    "spFxSharePointStrings": "webparts/spFxSharePoint/loc/{locale}.js"
+  }
+}
