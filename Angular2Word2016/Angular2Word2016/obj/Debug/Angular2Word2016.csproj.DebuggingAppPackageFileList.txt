@@ -1,0 +1,2 @@
+bin\Debug\OfficeAppManifests\Angular2Word2016Manifest.xml
+D:\Demos\_Workshop\Angular2Word2016\Angular2Word2016\bin\Debug\Angular2Word2016.debugapp

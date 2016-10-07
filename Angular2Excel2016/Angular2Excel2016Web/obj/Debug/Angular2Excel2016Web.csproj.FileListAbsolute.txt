@@ -1,0 +1,40 @@
+D:\Demos\34 - Angular\2.x\Angular2Excel2016\Angular2Excel2016Web\bin\roslyn\csc.exe
+D:\Demos\34 - Angular\2.x\Angular2Excel2016\Angular2Excel2016Web\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Demos\34 - Angular\2.x\Angular2Excel2016\Angular2Excel2016Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Demos\34 - Angular\2.x\Angular2Excel2016\Angular2Excel2016Web\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Demos\34 - Angular\2.x\Angular2Excel2016\Angular2Excel2016Web\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Demos\34 - Angular\2.x\Angular2Excel2016\Angular2Excel2016Web\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Demos\34 - Angular\2.x\Angular2Excel2016\Angular2Excel2016Web\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Demos\34 - Angular\2.x\Angular2Excel2016\Angular2Excel2016Web\bin\roslyn\System.Collections.Immutable.dll
+D:\Demos\34 - Angular\2.x\Angular2Excel2016\Angular2Excel2016Web\bin\roslyn\System.Reflection.Metadata.dll
+D:\Demos\34 - Angular\2.x\Angular2Excel2016\Angular2Excel2016Web\bin\roslyn\vbc.exe
+D:\Demos\34 - Angular\2.x\Angular2Excel2016\Angular2Excel2016Web\bin\roslyn\VBCSCompiler.exe
+D:\Demos\34 - Angular\2.x\Angular2Excel2016\Angular2Excel2016Web\bin\roslyn\VBCSCompiler.exe.config
+D:\Demos\34 - Angular\2.x\Angular2Excel2016\Angular2Excel2016Web\bin\Angular2Excel2016Web.dll.config
+D:\Demos\34 - Angular\2.x\Angular2Excel2016\Angular2Excel2016Web\bin\Angular2Excel2016Web.dll
+D:\Demos\34 - Angular\2.x\Angular2Excel2016\Angular2Excel2016Web\bin\Angular2Excel2016Web.pdb
+D:\Demos\34 - Angular\2.x\Angular2Excel2016\Angular2Excel2016Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Demos\34 - Angular\2.x\Angular2Excel2016\Angular2Excel2016Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Demos\34 - Angular\2.x\Angular2Excel2016\Angular2Excel2016Web\obj\Debug\Angular2Excel2016Web.csprojResolveAssemblyReference.cache
+D:\Demos\34 - Angular\2.x\Angular2Excel2016\Angular2Excel2016Web\obj\Debug\Angular2Excel2016Web.dll
+D:\Demos\34 - Angular\2.x\Angular2Excel2016\Angular2Excel2016Web\obj\Debug\Angular2Excel2016Web.pdb
+D:\Demos\_Workshop 2016\Angular2Excel2016\Angular2Excel2016Web\bin\roslyn\csc.exe
+D:\Demos\_Workshop 2016\Angular2Excel2016\Angular2Excel2016Web\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Demos\_Workshop 2016\Angular2Excel2016\Angular2Excel2016Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Demos\_Workshop 2016\Angular2Excel2016\Angular2Excel2016Web\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Demos\_Workshop 2016\Angular2Excel2016\Angular2Excel2016Web\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Demos\_Workshop 2016\Angular2Excel2016\Angular2Excel2016Web\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Demos\_Workshop 2016\Angular2Excel2016\Angular2Excel2016Web\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Demos\_Workshop 2016\Angular2Excel2016\Angular2Excel2016Web\bin\roslyn\System.Collections.Immutable.dll
+D:\Demos\_Workshop 2016\Angular2Excel2016\Angular2Excel2016Web\bin\roslyn\System.Reflection.Metadata.dll
+D:\Demos\_Workshop 2016\Angular2Excel2016\Angular2Excel2016Web\bin\roslyn\vbc.exe
+D:\Demos\_Workshop 2016\Angular2Excel2016\Angular2Excel2016Web\bin\roslyn\VBCSCompiler.exe
+D:\Demos\_Workshop 2016\Angular2Excel2016\Angular2Excel2016Web\bin\roslyn\VBCSCompiler.exe.config
+D:\Demos\_Workshop 2016\Angular2Excel2016\Angular2Excel2016Web\bin\Angular2Excel2016Web.dll.config
+D:\Demos\_Workshop 2016\Angular2Excel2016\Angular2Excel2016Web\bin\Angular2Excel2016Web.dll
+D:\Demos\_Workshop 2016\Angular2Excel2016\Angular2Excel2016Web\bin\Angular2Excel2016Web.pdb
+D:\Demos\_Workshop 2016\Angular2Excel2016\Angular2Excel2016Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Demos\_Workshop 2016\Angular2Excel2016\Angular2Excel2016Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Demos\_Workshop 2016\Angular2Excel2016\Angular2Excel2016Web\obj\Debug\Angular2Excel2016Web.csprojResolveAssemblyReference.cache
+D:\Demos\_Workshop 2016\Angular2Excel2016\Angular2Excel2016Web\obj\Debug\Angular2Excel2016Web.dll
+D:\Demos\_Workshop 2016\Angular2Excel2016\Angular2Excel2016Web\obj\Debug\Angular2Excel2016Web.pdb

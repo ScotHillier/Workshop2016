@@ -56,6 +56,20 @@ Set up a SharePoint development tenancy as described in this article:
 
 ## The Samples
 
+### Angular2Excel2016
+This sample is an Excel add-in
+
+#### Set Up
+1. Open **Angular2Excel2016.sln** and run
+
+### Angular2Word2016
+This sample is a Word add-in written with Angular 2 and TypeScript
+
+#### Set Up
+1. Open **Angular2Word2016.sln**
+2. Right-click **package.json** and select **Restore Packages**
+3. Run the project
+
 ### Embedded [Updated to Angular 2, RC6]
 This sample demonstrates how to use Angular 2 in SharePoint with a Site Page
 

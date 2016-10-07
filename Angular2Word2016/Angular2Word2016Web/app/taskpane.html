@@ -1,0 +1,34 @@
+﻿<div class="ms-fontColor-themeDarker" style="margin:5px;">
+    <div class="ms-Grid">
+        <div class="ms-Grid-row" style="padding-bottom:5px;">
+            <div class="ms-Grid-col ms-u-sm8 ms-u-md8 ms-u-lg8">
+                <div class="ms-font-m ms-fontWeight-semibold">
+                    Name
+                </div>
+            </div>
+            <div class="ms-Grid-col ms-u-sm4 ms-u-md4 ms-u-lg4">
+                <div class="ms-font-m ms-fontWeight-semibold">
+                    Unit Price
+                </div>
+            </div>
+        </div>
+        <div class="ms-Grid-row" *ngFor="let product of products" style="padding-bottom:5px;">
+            <div class="ms-Grid-col ms-u-sm8 ms-u-md8 ms-u-lg8">
+                <div class="ms-font-m ms-fontWeight-semibold">
+                    {{ product.ProductName }}
+                </div>
+            </div>
+            <div class="ms-Grid-col ms-u-sm4 ms-u-md4 ms-u-lg4">
+                <div class="ms-font-m ms-fontWeight-semibold">
+                    {{ product.UnitPrice | currency:'USD':true:'1.2-2' }}
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <button class="ms-Button ms-Button--primary" (click)="insertHTML()">
+            <span class="ms-Button-label">Insert!</span>
+        </button>
+    </div>
+    <div>{{message}}</div>
+</div>

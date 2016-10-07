@@ -1,0 +1,25 @@
+D:\Demos\34 - Angular\2.x\Angular2Excel2016\Angular2Excel2016\bin\Debug\roslyn\csc.exe
+D:\Demos\34 - Angular\2.x\Angular2Excel2016\Angular2Excel2016\bin\Debug\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Demos\34 - Angular\2.x\Angular2Excel2016\Angular2Excel2016\bin\Debug\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Demos\34 - Angular\2.x\Angular2Excel2016\Angular2Excel2016\bin\Debug\roslyn\Microsoft.CodeAnalysis.dll
+D:\Demos\34 - Angular\2.x\Angular2Excel2016\Angular2Excel2016\bin\Debug\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Demos\34 - Angular\2.x\Angular2Excel2016\Angular2Excel2016\bin\Debug\roslyn\Microsoft.CSharp.Core.targets
+D:\Demos\34 - Angular\2.x\Angular2Excel2016\Angular2Excel2016\bin\Debug\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Demos\34 - Angular\2.x\Angular2Excel2016\Angular2Excel2016\bin\Debug\roslyn\System.Collections.Immutable.dll
+D:\Demos\34 - Angular\2.x\Angular2Excel2016\Angular2Excel2016\bin\Debug\roslyn\System.Reflection.Metadata.dll
+D:\Demos\34 - Angular\2.x\Angular2Excel2016\Angular2Excel2016\bin\Debug\roslyn\vbc.exe
+D:\Demos\34 - Angular\2.x\Angular2Excel2016\Angular2Excel2016\bin\Debug\roslyn\VBCSCompiler.exe
+D:\Demos\34 - Angular\2.x\Angular2Excel2016\Angular2Excel2016\bin\Debug\roslyn\VBCSCompiler.exe.config
+D:\Demos\_Workshop 2016\Angular2Excel2016\Angular2Excel2016\bin\Debug\roslyn\csc.exe
+D:\Demos\_Workshop 2016\Angular2Excel2016\Angular2Excel2016\bin\Debug\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Demos\_Workshop 2016\Angular2Excel2016\Angular2Excel2016\bin\Debug\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Demos\_Workshop 2016\Angular2Excel2016\Angular2Excel2016\bin\Debug\roslyn\Microsoft.CodeAnalysis.dll
+D:\Demos\_Workshop 2016\Angular2Excel2016\Angular2Excel2016\bin\Debug\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Demos\_Workshop 2016\Angular2Excel2016\Angular2Excel2016\bin\Debug\roslyn\Microsoft.CSharp.Core.targets
+D:\Demos\_Workshop 2016\Angular2Excel2016\Angular2Excel2016\bin\Debug\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Demos\_Workshop 2016\Angular2Excel2016\Angular2Excel2016\bin\Debug\roslyn\System.Collections.Immutable.dll
+D:\Demos\_Workshop 2016\Angular2Excel2016\Angular2Excel2016\bin\Debug\roslyn\System.Reflection.Metadata.dll
+D:\Demos\_Workshop 2016\Angular2Excel2016\Angular2Excel2016\bin\Debug\roslyn\vbc.exe
+D:\Demos\_Workshop 2016\Angular2Excel2016\Angular2Excel2016\bin\Debug\roslyn\VBCSCompiler.exe
+D:\Demos\_Workshop 2016\Angular2Excel2016\Angular2Excel2016\bin\Debug\roslyn\VBCSCompiler.exe.config
+D:\Demos\_Workshop 2016\Angular2Excel2016\Angular2Excel2016\obj\Debug\Angular2Excel2016.csprojResolveAssemblyReference.cache

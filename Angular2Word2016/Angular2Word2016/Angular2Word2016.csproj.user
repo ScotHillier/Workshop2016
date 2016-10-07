@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <SharePointSiteUrl>https://yoursharepoint/</SharePointSiteUrl>
+    <GeneratedFeatureId>77aa19a6-63cc-41cc-887b-0a6b74364ad7</GeneratedFeatureId>
+    <GeneratedPackageId>ec5ec954-6453-4d78-939c-3738dba1fdb0</GeneratedPackageId>
+    <GeneratedModuleId>{23290cfe-8485-4d3b-82f6-65497751a7f5}</GeneratedModuleId>
+    <GeneratedListId>{fdf35080-15af-4cb9-adb1-668e2c38cc1e}</GeneratedListId>
+    <GeneratedProductId>{a7e5c4d4-1376-40e5-832d-c66bd397eb41}</GeneratedProductId>
+    <GeneratedAppVersion>1.0.0.0</GeneratedAppVersion>
+    <GeneratedClientSecret>atNZDz+85/bvwgc/wBIqwC7tAVwPiRPSW+KQkBQd1cQ=</GeneratedClientSecret>
+    <ProjectView>ProjectFiles</ProjectView>
+  </PropertyGroup>
+</Project>

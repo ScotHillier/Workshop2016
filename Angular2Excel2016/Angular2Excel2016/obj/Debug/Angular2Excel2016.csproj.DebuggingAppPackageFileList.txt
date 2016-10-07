@@ -1,0 +1,2 @@
+bin\Debug\OfficeAppManifests\Angular2Excel2016Manifest.xml
+D:\Demos\34 - Angular\2.x\Angular2Excel2016\Angular2Excel2016\bin\Debug\Angular2Excel2016.debugapp
